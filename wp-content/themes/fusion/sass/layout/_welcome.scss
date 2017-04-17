@@ -1,0 +1,63 @@
+.welcome {
+  padding: 100px 0 30px;
+  .title {
+    margin: 0 auto;
+    width: 75%;
+  }
+  .welcome-wrap {
+    display: table;
+    text-align: center;
+    .welcome-icon {
+      width: 42px;
+      overflow: hidden;
+      img {
+        width: 100%;
+      }
+    }
+    .welcome-title {
+      padding: 20px 0;
+      a {
+        font: 500 18px $font-primary;
+        transition: 0.3s all ease-out;
+        color: #4a4a4a;
+        &:hover {
+          color: $color-primary;
+        }
+      }
+    }
+    .welcome-content {
+      font: 400 16px/25px $font-primary;
+      color: #757575;
+    }
+    li {
+      width: 75%;
+      display: inline-block;
+      text-align: left;
+      vertical-align: text-top;
+      box-sizing: border-box;
+      padding: 50px;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .welcome {
+    padding: 150px 0 50px;
+    .welcome-wrap {
+      li {
+        width: 25%;
+        padding: 30px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .welcome {
+    .welcome-wrap {
+      li {
+        padding: 45px;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+/*
+Theme Name: Fusion
+Author: Artur Ivashchenko
+Description: Template for test task
+Version: 1.0.0
+*/
+
+/*--------------------------------------------------------------
+# Utils
+--------------------------------------------------------------*/
+@import "utils/var";
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+@import "base/fonts";
+@import "base/common";
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import "components/buttons";
+@import "components/social";
+@import "components/widget";
+
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+@import "layout/header";
+@import "layout/hero";
+@import "layout/footer";
+@import "layout/welcome";

@@ -1,0 +1,31 @@
+.social-btn {
+  display: flex;
+  flex-wrap: wrap;
+  li {
+    display: table;
+    width: 32px;
+    height: 32px;
+    padding: 3px;
+    border-radius: 50%;
+    margin: 3px;
+    background: #616161;
+    text-align: center;
+    transition: 0.3s all ease-out;
+    cursor: pointer;
+    &:hover {
+      background: $color-primary;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+    &:first-child {
+      margin-left: 0;
+    }
+    i {
+      vertical-align: middle;
+      color: #fff;
+      font-size: 18px;
+      transition: 0.3s all ease-out;
+    }
+  }
+}

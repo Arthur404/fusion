@@ -1,0 +1,23 @@
+.footer-widgets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font: 400 16px/25px $font-primary;
+  color: #616161;
+  a {
+    color: #616161;
+    transition: 0.3s all ease-out;
+    &:hover {
+      color: $color-primary;
+    }
+  }
+  .widget-title {
+    margin-bottom: 20px;
+    font: 500 20px $font-primary;
+    color: #4a4a4a;
+  }
+  & > li {
+    width: 185px;
+    margin-bottom: 40px;
+  }
+}

@@ -1,0 +1,56 @@
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, address, cite, img, q, small, strong, sub, sup, tt, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, section, aside, footer, header, menu, nav, time {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+article, aside, footer, header, menu, nav, section {
+  display: block;
+}
+ol, ul {
+  list-style: none;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+a{
+  text-decoration: none;
+}
+body.logged-in .site-header {
+  margin-top: 32px;
+}
+body.customize-partial-edit-shortcuts-shown .site-header {
+  margin-top: 0;
+}
+.title {
+  text-align: center;
+  h2 {
+    font: 400 50px/65px $font-primary;
+    color: #4a4a4a;
+  }
+  p {
+    padding: 10px 0 20px;
+    font: 400 16px/25px $font-primary;
+    color: #757575;
+  }
+}
