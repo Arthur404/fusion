@@ -5,7 +5,7 @@
 
 function fusion_setup() {
 
-    load_theme_textdomain( 'fusion', get_template_directory() . '/languages' );
+    load_theme_textdomain( 'fusion', get_template_directory() . '/lang' );
 
     add_theme_support( 'title-tag' );
 
